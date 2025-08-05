@@ -1,1 +1,34 @@
 @import "tailwindcss";
+
+.logo {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #ebf1f1;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 48px;
+}
+
+.navbar-item {
+  cursor: pointer;
+  position: relative;
+  padding: 5px 0;
+}
+
+.navbar-item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0px;
+  height: 2px;
+  background-color: #00f7ff;
+  transition: width 0.8s ease;
+}
+
+.navbar-item:hover::after {
+  width: 100%;
+}
