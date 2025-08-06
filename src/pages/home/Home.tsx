@@ -1,13 +1,15 @@
+import ListaCategorias from "../../components/categorias/listaCategorias/ListaCategorias"
+
 function Home() {
     return (
         <>
-            <div className="bg-blue-500 flex justify-center">
+            <div className="bg-gradient-to-r from-cyan-600 to-cyan-100 flex justify-center">
                 <div className='container grid grid-cols-2 text-white'>
                     <div className="flex flex-col gap-4 items-center justify-center py-4">
-                        <h2 className='text-5xl font-bold'>
+                        <h2 className='text-7xl font-bold'>
                             iFarma Tech
                         </h2>
-                        <p className='text-xl'>
+                        <p className='text-2xl'>
                             Sua farmácia inteligente e conectada
                         </p>
 
@@ -27,6 +29,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <ListaCategorias />
         </>
     )
 }
