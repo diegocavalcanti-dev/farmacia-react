@@ -1,7 +1,22 @@
 @import "tailwindcss";
 
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 .logo {
   font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #ebf1f1;
+}
+
+.logo-2 {
+    font-family: "Orbitron", sans-serif;
+}
+
+.text_project {
+    font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: 900;
   color: #ebf1f1;
